@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Yo\'lHarakatiQoidalari</string>
+    <string name="home">Home</string>
+    <string name="liked">Liked</string>
+    <string name="about">About</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="biz_2023_yil_24_fevral_rahmatullayev_ozodbek_tomidan_yaratilganmiz_siz_bu_ilova_orqali_yo_l_belgilari_borasida_bilimga_ega_bo_lishingiz_va_shu_bilan_birgalikda_dastlabki_tushunchalarga_ega_bo_lishingiz_mumkin">Biz 2023 yil 24-fevral Rahmatullayev Ozodbek tomidan yaratilganmiz, siz bu ilova orqali yo\'l belgilari borasida bilimga ega bo\'lishingiz va shu bilan birgalikda dastlabki tushunchalarga ega bo\'lishingiz mumkin</string>
+    <string name="saqlash">Saqlash</string>
+    <string name="yo_l_belgisining_to_liq_tarifi">Yo’l belgisining to’liq tarifi</string>
+    <string name="yo_l_belgisining_nomi">Yo’l belgisining nomi</string>
+    <string name="yo_l_belgisining_rasmini_qo_shish_uchun_rasm_ustiga_bosing">yo\'l belgisining rasmini qo\'shish uchun rasm ustiga bosing</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Yo'l belgisini qo'shish"
+        app:titleTextColor="@color/white"
+        android:background="@color/blue"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:layout_gravity="center"
+        android:src="@drawable/placeholder_image"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yo_l_belgisining_rasmini_qo_shish_uchun_rasm_ustiga_bosing"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_name"
+        android:layout_marginTop="20dp"
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        app:endIconTint="@color/blue"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/yo_l_belgisining_nomi"
+        app:endIconMode="clear_text"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:hintTextColor="@color/blue"
+        app:helperTextTextColor="#E53935">
+        <EditText
+            android:id="@+id/edt_name"
+            android:inputType="textPersonName"
+            android:textColor="@color/blue"
+            android:paddingEnd="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:importantForAutofill="no"
+            android:layout_height="match_parent"
+            tools:ignore="RtlSymmetry" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout_surname"
+        style="@style/TextInputLayoutStyle"
+        app:endIconTint="@color/blue"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/yo_l_belgisining_to_liq_tarifi"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:hintTextColor="@color/blue"
+        android:layout_marginBottom="10dp"
+        app:helperTextTextColor="#E53935">
+        <EditText
+            android:id="@+id/edt_about"
+            android:inputType="textPersonName"
+            android:textColor="@color/blue"
+            android:gravity="top"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:importantForAutofill="no" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        app:endIconTint="@color/blue"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Qaysi turga kirishi"
+        app:boxStrokeColor="@color/blue"
+        app:hintTextColor="@color/blue"
+        tools:ignore="HardcodedText">
+        <AutoCompleteTextView
+            android:id="@+id/spinner_which_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textSize="17sp"
+            android:paddingStart="15dp"
+            android:textColor="@color/blue"
+            tools:ignore="LabelFor,RtlSymmetry" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:layout_margin="15dp"
+        android:text="@string/saqlash"
+        android:textAllCaps="false"
+        android:layout_gravity="end" />
+</androidx.appcompat.widget.LinearLayoutCompat>

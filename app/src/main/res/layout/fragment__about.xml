@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.Fragment_About">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="biz haqimizda"
+        app:titleTextColor="@color/white"
+        android:background="@color/blue"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/biz_2023_yil_24_fevral_rahmatullayev_ozodbek_tomidan_yaratilganmiz_siz_bu_ilova_orqali_yo_l_belgilari_borasida_bilimga_ega_bo_lishingiz_va_shu_bilan_birgalikda_dastlabki_tushunchalarga_ega_bo_lishingiz_mumkin"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+
+
+</LinearLayout>
